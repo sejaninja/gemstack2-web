@@ -8,7 +8,7 @@ Quando("eu submeto minhas credenciais {string} e {string}") do |email, password|
 end
 
 Então("devo ser autenticado") do
-  expect(@side.logged_user).to eql "eu@papito.io"
+  expect(@side.logged_user).to eql "Papito"
 end
 
 Então("devo ver uma mensagem de alerta {string}") do |expect_alert|
