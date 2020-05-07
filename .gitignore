@@ -1,0 +1,5 @@
+Gemfile.lock
+debug.log
+logs/*.html
+logs/*.json
+logs/screenshots
