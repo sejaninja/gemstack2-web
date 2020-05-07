@@ -1,7 +1,7 @@
 pipeline {
    agent {
        docker {
-           image 'ruby'
+           image 'qaninja/ruby-selenium'
            args '--network skynet'
        }
    }
