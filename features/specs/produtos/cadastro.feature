@@ -32,4 +32,4 @@ Funcionalidade: Cadastro de produtos
             | Sega     |
         Mas este item já foi cadatrado
         Quando eu faço o cadastro desse item
-        Entao devo ver a notificaçao "Oops - Este produto já foi cadastrado!"
+        Entao devo ver a notificaçao "Oops - Este produto já está cadastrado!"
