@@ -16,7 +16,7 @@ pipeline {
       stage('Test') {
          steps {
             echo 'Executando testes'
-            sh 'cucumber -p ci -t @smoke'
+            sh 'cucumber -p ci'
          }
          post {
             always {
