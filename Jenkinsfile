@@ -9,7 +9,7 @@ pipeline {
    stages {
       stage('Build') {
          steps {
-            echo 'Compilando e/ou bainxado dependências'
+            echo 'Compilando e/ou baixando dependências'
             sh 'bundle install'
          }
       }
