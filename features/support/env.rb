@@ -17,6 +17,7 @@ when "headless"
       opts.args << "--disable-gpu"
       opts.args << "--no-sandbox"
       opts.args << "--disable-site-isolation-trials"
+      opts.args << "--disable-dev-shm-usage"
     end
     Capybara::Selenium::Driver.new(app, browser: :chrome, options: browser_options)
   end
